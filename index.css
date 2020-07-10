@@ -149,7 +149,7 @@ marquee{
 	margin-top: 30px;
 	display: flex;
 	justify-content: space-between;
-	width: 1890px;
+	max-width: 1890px;
 	height: 400px;
 }
 .buy1{
@@ -183,38 +183,42 @@ marquee{
 .poster{
 	display: flex;
 	margin: 0 auto;
-	height: 280px;
-	width: 1890px;
-	background: url(img/3.png);
+	max-width: 1890px;
 	margin-top: 20px;
 }
+
+.poster_img{
+	width: 100%;
+}
+
 .dmx1000{
 	display: flex;
-	margin-left: 100px;
 	height: 400px;
-	width: 600px;
-	background: url(img/new.png);
+	width: 100%;
 	margin-top: 40px;
+	margin: 0 auto;
 }
+
+.d_i{
+	margin: 0 auto;
+}
+
 .dmx1000_txt{
 	text-align: center;
     display: flex;
-    margin-left: 770px;
     font-size: 20px;
     font-family: arial black;
-    height: 150px;
-    width: 900px;
-    margin-top: -320px;
+    height: 124px;
+    width: 100%;
+    margin-top: 42px;
 }
 .dmx1000_txt2{
 	text-align: center;
     display: flex;
-    margin-left: 736px;
     font-size: 21px;
     font-family: sans-serif;
     height: 150px;
-    width: 900px;
-    margin-top: -55px;
+    width: 100%;
 }
 .buy2{
 	display: block;
@@ -252,15 +256,20 @@ marquee{
 	height: 40px;
 	margin-top: 1px;
 }
+
+.circle{
+	width: 50%;
+}
+
 .rotate{
+	margin: 0 auto;
+	margin-left: -11px;
 	display: flex;
     z-index: 1;
-    margin-top: -352px;
-    margin-left: 215px;
-    height: 365px;
-    width: 365px;
+    margin-top: -385px;
+    height: 98%;
+    width: 100%;
     border-radius: 50%;
-    background: url(img/rotate.png);
     animation-name: rotation;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -276,8 +285,25 @@ marquee{
 }
 
 .extra{
-	width: 1890px;
 	margin: 0 auto;
+	max-width: 1890px;
+}
+
+.content2{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.content2_txt{
+	float: right;
+	width: 50%;
+	margin-right: 1%;
+}
+
+.butt{
+	
 }
 
 footer{
