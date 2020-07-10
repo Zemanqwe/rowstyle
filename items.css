@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F0F0F0;
+}
+header{
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	background-color: #FFFFFF;
+	opacity: .95;
+	box-shadow: 5px 5px 8px rgba(0,0,0,0.5);
+	z-index: 999;
+}
+.for_header{
+	height: 70px;
+	width: 100%;
+	background-color: #FFFFFF;
+	z-index:0;
+}
+.Logo{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.menu{
+	margin-top: 45px;
+}
+li{
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.head_menu{
+	text-align: center;
+	overflow: hidden;
+	list-style: none;
+	margin: 0 auto;
+	padding-left: 0;
+	margin-left: 300px;
+}
+.m_e_a{
+	color: #717171;
+	font-size: 20px;
+	font-family: sans-serif;
+	transition: 0.3s;
+}
+.m_e_a:hover{
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+	transition: 0.3s;
+}
+.m_e{
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.avtor{
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	float: right;
+	margin-top: -45px;
+}
+.enter,.reg{
+	padding: 10px;
+	color: #717171;
+	font-size: 17px;
+}
+.content{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+}
+.title{
+	width: 1000px;
+    height: 35px;
+    margin-left: 430px;
+    font-size: 35px;
+    font-family: fantasy;
+    margin-top: 40px;
+	color: #717171;
+}
+.c_e{
+	width: 350px;
+	height: 400px;
+	background-color: white;
+	border: 7px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
+.c_e_img{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+}
+.c_e_txt{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 15px;
+	color: black;
+	font-family: sans-serif;
+}
+footer{
+	width: 100%;
+	height: 160px;
+	margin-top: 50px;
+	background-color: white;
+	box-shadow: -2px -2px 8px rgba(122,122,122,0.5);
+}
+.footer_txt{
+	padding-top: 50px;
+	width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 53px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.l_vk{
+	background: url(img/link_vk.png);
+    width: 60px;
+    height: 60px;
+    margin-top: -50px;
+    float: right;
+    margin-right: 35px;
+}
+.l_inst{
+	background: url(img/link_inst.png);
+    width: 60px;
+    height: 60px;
+    margin-top: -50px;
+    float: right;
+    margin-right: 35px;
+}
+.l_vk_a,.l_inst_a{
+	width: 60px;
+	height: 60px;
+}
